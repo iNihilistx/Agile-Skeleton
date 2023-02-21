@@ -4,13 +4,13 @@ using System;
 namespace Testing1
 {
     [TestClass]
-    public class tstAddress
+    public class tstStock
     {
         [TestMethod]
         public void InstanceOK()
         {
             clsStock aStock = new clsStock();
-            Assert.ISNotNull(aStock);
+            Assert.IsNotNull(aStock);
         }
     }
 }
