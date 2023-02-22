@@ -4,7 +4,7 @@ using System;
 namespace Testing1
 {
     [TestClass]
-    public class UnitTest1
+    public class tstStock
     {
         [TestMethod]
         public void InstanceOK()
