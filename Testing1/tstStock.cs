@@ -13,12 +13,12 @@ namespace Testing1
             Assert.IsNotNull(aStock);
         }
         [TestMethod]
-        public void ActivePropertyOK()
+        public void StockDescriptionPropertyOK()
         {
             clsStock astock = new clsStock();
-            Boolean TestData = true;
-            astock.Active = TestData;
-            Assert.AreEqual(astock.Active, TestData);
+            string TestData = "A smaller than usual ring";
+            astock.ProductDescription = TestData;
+            Assert.AreEqual(astock.ProductDescription, TestData);
         }
         [TestMethod]
         public void StockUploadedPropertyOK()
